@@ -50,7 +50,7 @@ JavaScript can become a programming language that is not only foundational but a
 
 ## Coding Solutions :
 
-1. Write code implementations for the following Array methods ?
+Q.1 - Write code implementations for the following Array methods ?
 * Array which we are going to use for implementing the various methods of Array: `const arr = [1, 2, 3, 4]`
    * *forEach* :- 
       ```js
@@ -96,7 +96,7 @@ JavaScript can become a programming language that is not only foundational but a
       console.log(arr.every(element => element % 2 === 0)) // Output :- false
       ```
    
-2. Simple Array Implementation
+Q.2 - Simple Array Implementation
 ```js
 const arr = [2, 55, 12, 90, 69]
 
