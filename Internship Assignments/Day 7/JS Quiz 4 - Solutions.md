@@ -1,6 +1,12 @@
+<<<<<<< HEAD
+## JS Quiz 4 - Solutions :
+
+Q.1. What are anonymous functions in JavaScript?
+=======
 ## JS Quiz 4 - Solutions :
 
 1. What are anonymous functions in JavaScript?
+>>>>>>> 695d30f2826e3989eeaf61232da1190df0239f19
    * Anonymous functions in JavaScript are functions that do not have a name. These functions are often used when you need to pass a function as an argument to another function or when a function is used only once.  Often passed as arguments to functions like setTimeout, map, filter, etc. 
    Example:- 
    ```js
