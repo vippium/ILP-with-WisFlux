@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Animation with Promises</title>
+    <style>
+        img {
+            width: 250px;
+            height: 250px;
+            margin: 50px;
+            object-fit: cover;
+            transition: transform 2s ease-in-out, opacity 3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div id="image-container">
+        <img src="https://pixlr.com/images/index/ai-image-generator-one.webp" id="image1" alt="Image 1">
+        <img src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" id="image2" alt="Image 2">
+        <img src="https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/340930c2-e182-40cd-0519-64c7dd96d700/width=450/216568.jpeg" id="image3" alt="Image 3">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

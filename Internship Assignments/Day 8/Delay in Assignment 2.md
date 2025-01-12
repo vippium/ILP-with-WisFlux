@@ -1,1 +1,0 @@
-It will take time, might be 11-12th Jan, as lack of understanding of concepts of ts and some of js.
