@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+  }
+  
+  .app-container {
+    max-width: 800px;
+    width: 100%;
+    padding: 15px;  
+    background: rgb(245, 243, 243);
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input {
+    width: 97%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #808080;
+    border-radius: 20px;
+  }
+  
+  #results, #favorites {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+  }
+  
+  .photo {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .favorite {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  
